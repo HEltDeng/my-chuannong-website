@@ -20,7 +20,7 @@ python3 -m http.server 5181 --bind 127.0.0.1
 - `guides.html`、`manual.html`：可搜索的入门指南及说明入口。
 - `privacy.html`、`terms.html`、`collection.html`、`third-parties.html`、`services.html`：网站说明以及应用 iOS 2026-10-26.1 版协议内容快照。应用协议变化后应同步核对；各平台以应用内当前版本为准。
 - `contact.html`、`commercial.html`、`thanks.html`：反馈、合作和致谢。
-- `assets/`：网站样式、脚本、应用图标和 iOS 界面预览。界面图为 iOS 模拟器中的 Xcode 预览，使用明确标注的示例内容，不含学生账号或学习数据。
+- `assets/`：网站样式、脚本、应用图标和 iOS 界面截图。界面图来自 iOS 模拟器，不含学生账号或学习数据。
 
 页面使用相对路径，可放在静态服务器根目录或子目录中。`config/site.json` 为公开配置，不得写入密码、密钥、个人隐私、测试账号或未授权公开的资料。
 
