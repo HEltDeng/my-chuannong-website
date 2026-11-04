@@ -1,0 +1,19 @@
+{
+  "announcementPath": "/api/v1/public/website-announcements",
+  "android": {
+    "downloadUrl": "",
+    "version": "",
+    "releaseDate": "",
+    "size": "",
+    "sha256": ""
+  },
+  "ios": {
+    "downloadUrl": ""
+  },
+  "releases": [],
+  "qqGroupUrl": "",
+  "filing": {
+    "number": "",
+    "url": ""
+  }
+}

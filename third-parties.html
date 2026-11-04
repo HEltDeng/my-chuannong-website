@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="我的川农第三方服务与 SDK 清单与相关服务说明。"><meta property="og:title" content="第三方服务与 SDK 清单｜我的川农"><meta property="og:description" content="我的川农第三方服务与 SDK 清单与相关服务说明。"><meta property="og:type" content="website"><title>第三方服务与 SDK 清单｜我的川农</title><link rel="icon" href="assets/images/app-icon.png"><link rel="stylesheet" href="assets/styles/site.css"><script defer src="assets/scripts/site.js"></script></head>
+
+<body data-page="third-parties"><a class="skip-link" href="#main-content">跳到主要内容</a>
+<header class="site-header">
+<div class="container header-inner"><a class="brand" href="index.html" aria-label="我的川农首页"><img src="assets/images/app-icon.png" width="38" height="38" alt=""><span>我的川农</span></a><button class="menu-button" type="button" aria-label="打开导航菜单" aria-expanded="false" aria-controls="site-nav" data-menu-button><span></span><span></span><span></span></button>
+<nav class="site-nav" id="site-nav" aria-label="主要导航" data-site-nav data-open="false">
+<div class="mobile-nav-head"><strong>导航</strong><button class="mobile-nav-close" type="button" aria-label="关闭导航菜单" data-menu-close>×</button></div>
+<a href="index.html">首页</a><a href="features.html">功能介绍</a><a href="download.html">下载</a><a href="updates.html">更新日志</a><a href="guides.html">指南</a>
+<div class="mobile-nav-actions">
+<div class="header-actions" aria-label="快捷入口"><button class="header-action" type="button" data-theme-toggle aria-label="切换到深色模式" title="切换到深色模式"><img src="assets/icons/moon.svg" alt="" data-theme-icon><span class="header-action-label">切换明暗</span></button><a class="header-action" href="contact.html" aria-label="联系反馈" title="联系反馈"><img src="assets/icons/mail.svg" alt=""><span class="header-action-label">联系反馈</span></a><button class="header-action announcement-shortcut" type="button" data-announcement-shortcut aria-label="暂无最新公告" title="暂无最新公告" disabled><img src="assets/icons/bell-ring.svg" alt=""><span class="header-action-label">网站公告</span><span class="announcement-dot" hidden></span></button><button class="header-action" type="button" data-qq-trigger aria-label="QQ 聊天群" title="QQ 聊天群"><img src="assets/icons/qq.svg" alt=""><span class="header-action-label">QQ 聊天群</span></button></div>
+</div>
+</nav>
+
+<div class="header-actions" aria-label="快捷入口"><button class="header-action" type="button" data-theme-toggle aria-label="切换到深色模式" title="切换到深色模式"><img src="assets/icons/moon.svg" alt="" data-theme-icon><span class="header-action-label">切换明暗</span></button><a class="header-action" href="contact.html" aria-label="联系反馈" title="联系反馈"><img src="assets/icons/mail.svg" alt=""><span class="header-action-label">联系反馈</span></a><button class="header-action announcement-shortcut" type="button" data-announcement-shortcut aria-label="暂无最新公告" title="暂无最新公告" disabled><img src="assets/icons/bell-ring.svg" alt=""><span class="header-action-label">网站公告</span><span class="announcement-dot" hidden></span></button><button class="header-action" type="button" data-qq-trigger aria-label="QQ 聊天群" title="QQ 聊天群"><img src="assets/icons/qq.svg" alt=""><span class="header-action-label">QQ 聊天群</span></button></div>
+</div>
+<button class="nav-overlay" type="button" aria-label="关闭导航菜单" data-menu-overlay hidden></button></header>
+
+<div class="container announcement-region" data-announcement-region hidden><button class="announcement-bar" type="button" data-announcement-trigger aria-controls="announcement-dialog" aria-haspopup="dialog"><svg class="announcement-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h3l4 3V7l-4 3H4Zm11.5-2.5a5 5 0 0 1 0 9M17.5 5a8.5 8.5 0 0 1 0 14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></svg><span class="announcement-label">最新公告</span><span class="announcement-separator">·</span><span class="announcement-summary" data-announcement-summary></span><span class="announcement-action">查看详情 ›</span></button></div>
+
+<dialog class="announcement-dialog" id="announcement-dialog" aria-labelledby="announcement-title" aria-describedby="announcement-content">
+<div class="announcement-dialog-shell">
+<header class="announcement-dialog-header">
+<div class="announcement-dialog-heading">
+<p class="section-kicker">网站公告</p>
+
+<h2 id="announcement-title"></h2>
+<time class="announcement-dialog-date" data-announcement-date></time></div>
+<button class="announcement-close" type="button" data-announcement-close aria-label="关闭公告">×</button></header>
+
+<div class="announcement-dialog-body" id="announcement-content" tabindex="0"></div>
+
+<footer class="announcement-dialog-footer"><button class="button button-primary" type="button" data-announcement-confirm>确认已读</button></footer>
+</div>
+</dialog>
+
+<dialog class="qq-dialog" id="qq-dialog" aria-labelledby="qq-title">
+<div class="qq-dialog-shell">
+<header class="qq-dialog-header">
+<div class="qq-dialog-heading"><span class="qq-dialog-brand"><img src="assets/icons/qq.svg" alt="" width="22" height="22"></span>
+<div>
+<h2 id="qq-title">QQ 聊天群</h2>
+
+<p class="qq-dialog-intro">与川农同学一起交流。</p>
+</div>
+</div>
+<button class="announcement-close" type="button" data-qq-close aria-label="关闭">×</button></header>
+
+<div class="qq-dialog-body">
+<p class="qq-empty" data-qq-empty>QQ群筹备中</p>
+<a class="button button-primary" data-qq-link hidden target="_blank" rel="noopener noreferrer">加入 QQ 聊天群</a></div>
+</div>
+</dialog>
+
+<main id="main-content">
+<section class="page-hero">
+<div class="container page-hero-inner">
+<p class="eyebrow">协议与服务说明</p>
+
+<h1>第三方服务与 SDK 清单</h1>
+
+<p>以下为应用 iOS 当前协议内容（2026-10-26.1）；使用时请以应用内展示的当前版本为准。</p>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<nav class="legal-nav" aria-label="协议与服务说明"><a href="privacy.html" data-legal-page="privacy">隐私政策</a><a href="terms.html" data-legal-page="terms">用户协议</a><a href="collection.html" data-legal-page="collection">个人信息收集清单</a><a href="third-parties.html" data-legal-page="third-parties">第三方服务与 SDK 清单</a><a href="services.html" data-legal-page="services">服务说明</a></nav>
+
+<div class="document-page">
+<section><span class="document-number">01</span>
+<div>
+<h2>腾讯云短信</h2>
+
+<p>提供方：腾讯云计算（北京）有限责任公司。用途：发送注册、找回密码和验证手机号的验证码。触发：用户点击获取验证码，且短信服务已配置并通过审核。处理信息：接收手机号、验证码短信内容及发送结果。采用后台接口调用，APP 不内嵌短信 SDK，不读取短信收件箱，不向腾讯云发送学校密码、学校会话或学习数据。</p>
+</div>
+</section>
+
+<section><span class="document-number">02</span>
+<div>
+<h2>高德地图 / 搜索 SDK</h2>
+
+<p>提供方：北京高德图强科技有限公司。用途：校园底图和公开地点搜索。触发：单独同意地图说明并进入校园地图。可能处理地图视野经纬度、固定学校名与建筑类别查询词、IP、网络类型、设备型号、系统和应用版本、屏幕参数等，具体以高德政策为准。输入框文字仅在本机筛选；公开地点缓存七天。不启用设备定位，不发送学校账号、密码、会话或学习数据。</p>
+</div>
+</section>
+
+<section><span class="document-number">03</span>
+<div>
+<h2>四川农业大学相关服务</h2>
+
+<p>学校 VPN、川农 e、教务及其他学校网页由学校或其服务方提供。您主动认证时，账号、必要认证信息和会话直接发送至对应学校服务。我的川农后台不接收这些数据。</p>
+</div>
+</section>
+
+<section><span class="document-number">04</span>
+<div>
+<h2>哈哈龙跑腿与微信入口</h2>
+
+<p>跑腿由哈哈龙跑腿第三方提供。应用展示海报和微信入口；您主动进入后按第三方规则提供所需资料。我的川农不参与配送、定价、支付或售后，不自动传送平台账号或学校凭据。</p>
+</div>
+</section>
+
+<section><span class="document-number">05</span>
+<div>
+<h2>外部资料及查询网页</h2>
+
+<p>资料库、考试查询等链接在您主动打开时连接对应网站；对方会接收完成网页请求所需的信息。请查看目标网站自己的隐私政策，不在不可信页面输入账号或敏感信息。</p>
+</div>
+</section>
+
+<section><span class="document-number">06</span>
+<div>
+<h2>Apple 系统能力</h2>
+
+<p>系统照片选择器、通知、Safari、Vision 与 WidgetKit 用于对应的选图、提醒、网页展示、本机识别和小组件功能。当前消息使用系统本地通知与自有后台轮询，没有接入个推、腾讯推送或广告统计 SDK。</p>
+</div>
+</section>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<div class="footer-brand"><strong>我的川农</strong><span>校园学习与生活辅助工具</span></div>
+
+<nav class="footer-links" aria-label="页脚导航"><a href="privacy.html">隐私政策</a><a href="terms.html">用户协议</a><a href="services.html">服务说明</a><a href="manual.html">软件说明书</a><a href="contact.html">联系反馈</a><a href="thanks.html">感谢</a></nav>
+</div>
+
+<div class="container footer-filing"><span>© 2026 我的川农</span><a data-filing-link hidden target="_blank" rel="noopener noreferrer"></a></div>
+</footer>
+</body>
+</html>

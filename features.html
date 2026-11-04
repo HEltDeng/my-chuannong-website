@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="查看我的川农的学习、生活、社区和学校服务功能。"><meta property="og:title" content="功能介绍｜我的川农"><meta property="og:description" content="查看我的川农的学习、生活、社区和学校服务功能。"><meta property="og:type" content="website"><title>功能介绍｜我的川农</title><link rel="icon" href="assets/images/app-icon.png"><link rel="stylesheet" href="assets/styles/site.css"><script defer src="assets/scripts/site.js"></script></head>
+
+<body data-page="features"><a class="skip-link" href="#main-content">跳到主要内容</a>
+<header class="site-header">
+<div class="container header-inner"><a class="brand" href="index.html" aria-label="我的川农首页"><img src="assets/images/app-icon.png" width="38" height="38" alt=""><span>我的川农</span></a><button class="menu-button" type="button" aria-label="打开导航菜单" aria-expanded="false" aria-controls="site-nav" data-menu-button><span></span><span></span><span></span></button>
+<nav class="site-nav" id="site-nav" aria-label="主要导航" data-site-nav data-open="false">
+<div class="mobile-nav-head"><strong>导航</strong><button class="mobile-nav-close" type="button" aria-label="关闭导航菜单" data-menu-close>×</button></div>
+<a href="index.html">首页</a><a href="features.html" aria-current="page">功能介绍</a><a href="download.html">下载</a><a href="updates.html">更新日志</a><a href="guides.html">指南</a>
+<div class="mobile-nav-actions">
+<div class="header-actions" aria-label="快捷入口"><button class="header-action" type="button" data-theme-toggle aria-label="切换到深色模式" title="切换到深色模式"><img src="assets/icons/moon.svg" alt="" data-theme-icon><span class="header-action-label">切换明暗</span></button><a class="header-action" href="contact.html" aria-label="联系反馈" title="联系反馈"><img src="assets/icons/mail.svg" alt=""><span class="header-action-label">联系反馈</span></a><button class="header-action announcement-shortcut" type="button" data-announcement-shortcut aria-label="暂无最新公告" title="暂无最新公告" disabled><img src="assets/icons/bell-ring.svg" alt=""><span class="header-action-label">网站公告</span><span class="announcement-dot" hidden></span></button><button class="header-action" type="button" data-qq-trigger aria-label="QQ 聊天群" title="QQ 聊天群"><img src="assets/icons/qq.svg" alt=""><span class="header-action-label">QQ 聊天群</span></button></div>
+</div>
+</nav>
+
+<div class="header-actions" aria-label="快捷入口"><button class="header-action" type="button" data-theme-toggle aria-label="切换到深色模式" title="切换到深色模式"><img src="assets/icons/moon.svg" alt="" data-theme-icon><span class="header-action-label">切换明暗</span></button><a class="header-action" href="contact.html" aria-label="联系反馈" title="联系反馈"><img src="assets/icons/mail.svg" alt=""><span class="header-action-label">联系反馈</span></a><button class="header-action announcement-shortcut" type="button" data-announcement-shortcut aria-label="暂无最新公告" title="暂无最新公告" disabled><img src="assets/icons/bell-ring.svg" alt=""><span class="header-action-label">网站公告</span><span class="announcement-dot" hidden></span></button><button class="header-action" type="button" data-qq-trigger aria-label="QQ 聊天群" title="QQ 聊天群"><img src="assets/icons/qq.svg" alt=""><span class="header-action-label">QQ 聊天群</span></button></div>
+</div>
+<button class="nav-overlay" type="button" aria-label="关闭导航菜单" data-menu-overlay hidden></button></header>
+
+<div class="container announcement-region" data-announcement-region hidden><button class="announcement-bar" type="button" data-announcement-trigger aria-controls="announcement-dialog" aria-haspopup="dialog"><svg class="announcement-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h3l4 3V7l-4 3H4Zm11.5-2.5a5 5 0 0 1 0 9M17.5 5a8.5 8.5 0 0 1 0 14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></svg><span class="announcement-label">最新公告</span><span class="announcement-separator">·</span><span class="announcement-summary" data-announcement-summary></span><span class="announcement-action">查看详情 ›</span></button></div>
+
+<dialog class="announcement-dialog" id="announcement-dialog" aria-labelledby="announcement-title" aria-describedby="announcement-content">
+<div class="announcement-dialog-shell">
+<header class="announcement-dialog-header">
+<div class="announcement-dialog-heading">
+<p class="section-kicker">网站公告</p>
+
+<h2 id="announcement-title"></h2>
+<time class="announcement-dialog-date" data-announcement-date></time></div>
+<button class="announcement-close" type="button" data-announcement-close aria-label="关闭公告">×</button></header>
+
+<div class="announcement-dialog-body" id="announcement-content" tabindex="0"></div>
+
+<footer class="announcement-dialog-footer"><button class="button button-primary" type="button" data-announcement-confirm>确认已读</button></footer>
+</div>
+</dialog>
+
+<dialog class="qq-dialog" id="qq-dialog" aria-labelledby="qq-title">
+<div class="qq-dialog-shell">
+<header class="qq-dialog-header">
+<div class="qq-dialog-heading"><span class="qq-dialog-brand"><img src="assets/icons/qq.svg" alt="" width="22" height="22"></span>
+<div>
+<h2 id="qq-title">QQ 聊天群</h2>
+
+<p class="qq-dialog-intro">与川农同学一起交流。</p>
+</div>
+</div>
+<button class="announcement-close" type="button" data-qq-close aria-label="关闭">×</button></header>
+
+<div class="qq-dialog-body">
+<p class="qq-empty" data-qq-empty>QQ群筹备中</p>
+<a class="button button-primary" data-qq-link hidden target="_blank" rel="noopener noreferrer">加入 QQ 聊天群</a></div>
+</div>
+</dialog>
+
+<main id="main-content">
+<section class="page-hero">
+<div class="container page-hero-inner">
+<p class="eyebrow">功能介绍</p>
+
+<h1>熟悉的校园事，一处找到。</h1>
+
+<p>围绕学习、校园生活和学校服务，整理每天常用的功能入口。</p>
+</div>
+</section>
+
+<section class="section feature-section">
+<div class="container">
+<div class="section-heading anchor-target" id="study">
+<div>
+<p class="section-kicker">学习服务</p>
+
+<h2 class="section-title">学习安排与本人信息查询</h2>
+</div>
+</div>
+
+<div class="feature-grid">
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/calendar-days.svg" alt="" width="22" height="22"></span>
+<h3>课表</h3>
+
+<p>查看每周课程、上课地点和教师；也可以添加本机自定义课程。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/chart-no-axes-column-increasing.svg" alt="" width="22" height="22"></span>
+<h3>成绩查询</h3>
+
+<p>查询本人已公布的成绩，并查看应用支持的成绩汇总。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/clipboard-check.svg" alt="" width="22" height="22"></span>
+<h3>考试安排</h3>
+
+<p>查看学校返回的考试时间、地点等信息。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/library-big.svg" alt="" width="22" height="22"></span>
+<h3>资料库</h3>
+
+<p>浏览运营维护的学习资料链接，并按需收藏。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/languages.svg" alt="" width="22" height="22"></span>
+<h3>四六级</h3>
+
+<p>进入对应的四六级成绩查询或信息服务。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/languages.svg" alt="" width="22" height="22"></span>
+<h3>普通话测试</h3>
+
+<p>进入普通话测试相关服务。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/smartphone.svg" alt="" width="22" height="22"></span>
+<h3>计算机考试</h3>
+
+<p>进入全国计算机等级考试相关服务。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/chart-no-axes-column-increasing.svg" alt="" width="22" height="22"></span>
+<h3>综测成绩</h3>
+
+<p>进入学校学工服务，查看综测信息。</p>
+</article>
+</div>
+</div>
+</section>
+
+<section class="section feature-section section-muted">
+<div class="container">
+<div class="section-heading anchor-target" id="life">
+<div>
+<p class="section-kicker">校园生活</p>
+
+<h2 class="section-title">从学习之外，到生活日常</h2>
+</div>
+</div>
+
+<div class="feature-grid">
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/zap.svg" alt="" width="22" height="22"></span>
+<h3>电费查询</h3>
+
+<p>查看学校电费服务的操作指引。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/search.svg" alt="" width="22" height="22"></span>
+<h3>失物招领</h3>
+
+<p>浏览和发布失物、招领信息；内容经审核后展示。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/notebook-tabs.svg" alt="" width="22" height="22"></span>
+<h3>二手好物</h3>
+
+<p>浏览或发布二手信息，与物品发布者联系。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/door-open.svg" alt="" width="22" height="22"></span>
+<h3>跑腿代取</h3>
+
+<p>查看第三方跑腿服务的海报与微信入口。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/clipboard-check.svg" alt="" width="22" height="22"></span>
+<h3>周点名</h3>
+
+<p>进入学校周点名服务，按学校页面提示办理。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/calendar-range.svg" alt="" width="22" height="22"></span>
+<h3>节假日去向</h3>
+
+<p>进入学校节假日去向登记服务。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/badge-info.svg" alt="" width="22" height="22"></span>
+<h3>后勤报修</h3>
+
+<p>查看后勤报修的操作指引。</p>
+</article>
+</div>
+</div>
+</section>
+
+<section class="section feature-section">
+<div class="container">
+<div class="section-heading anchor-target" id="off-campus">
+<div>
+<p class="section-kicker">校外园地</p>
+
+<h2 class="section-title">了解服务，按需咨询</h2>
+</div>
+</div>
+
+<div class="feature-grid">
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/smartphone.svg" alt="" width="22" height="22"></span>
+<h3>驾校</h3>
+
+<p>浏览驾校信息并按需提交咨询意向。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/languages.svg" alt="" width="22" height="22"></span>
+<h3>雅思托福</h3>
+
+<p>浏览相关机构与课程信息。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/book-open.svg" alt="" width="22" height="22"></span>
+<h3>考公考研</h3>
+
+<p>浏览相关机构与课程信息。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/heart-handshake.svg" alt="" width="22" height="22"></span>
+<h3>健身房</h3>
+
+<p>浏览机构信息并按需提交咨询意向。</p>
+</article>
+</div>
+</div>
+</section>
+
+<section class="section feature-section section-muted">
+<div class="container">
+<div class="section-heading anchor-target" id="school">
+<div>
+<p class="section-kicker">学校服务</p>
+
+<h2 class="section-title">常用学校服务，方便进入</h2>
+</div>
+</div>
+
+<div class="feature-grid">
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/door-open.svg" alt="" width="22" height="22"></span>
+<h3>教务系统</h3>
+
+<p>通过川农 e 认证访问学校教务服务。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/book-open.svg" alt="" width="22" height="22"></span>
+<h3>学工系统</h3>
+
+<p>进入学校学工系统及其相关服务。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/shield-alert.svg" alt="" width="22" height="22"></span>
+<h3>统一认证</h3>
+
+<p>使用川农 e 进入学校统一认证服务。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/panels-top-left.svg" alt="" width="22" height="22"></span>
+<h3>一网通办</h3>
+
+<p>进入学校一网通办服务。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/badge-info.svg" alt="" width="22" height="22"></span>
+<h3>校园缴费</h3>
+
+<p>进入学校提供的缴费服务。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/calendar-range.svg" alt="" width="22" height="22"></span>
+<h3>学校校历</h3>
+
+<p>查看学期与教学周安排及学校校历来源。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/search.svg" alt="" width="22" height="22"></span>
+<h3>校园地图</h3>
+
+<p>查看校园地图和公开地点，帮助认识校园。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/smartphone.svg" alt="" width="22" height="22"></span>
+<h3>学校官网</h3>
+
+<p>快速进入四川农业大学公开网站。</p>
+</article>
+</div>
+</div>
+</section>
+
+<section class="section feature-section">
+<div class="container">
+<div class="section-heading anchor-target" id="assist">
+<div>
+<p class="section-kicker">个人工具</p>
+
+<h2 class="section-title">提醒、消息与账号管理</h2>
+</div>
+</div>
+
+<div class="feature-grid">
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/bell-ring.svg" alt="" width="22" height="22"></span>
+<h3>上课提醒</h3>
+
+<p>根据本机课表按需设置课程提醒。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/panels-top-left.svg" alt="" width="22" height="22"></span>
+<h3>桌面小组件</h3>
+
+<p>在桌面查看下一节课程或今日课表。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/bell-ring.svg" alt="" width="22" height="22"></span>
+<h3>消息与通知</h3>
+
+<p>查看服务动态，并按需管理通知设置。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/smartphone.svg" alt="" width="22" height="22"></span>
+<h3>我的川农账号</h3>
+
+<p>管理平台账号、昵称与相关资料。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/shield-alert.svg" alt="" width="22" height="22"></span>
+<h3>绑定学号</h3>
+
+<p>使用本人川农 e 完成学校认证，管理学校绑定。</p>
+</article>
+
+<article class="feature-card"><span class="feature-icon"><img src="assets/icons/badge-info.svg" alt="" width="22" height="22"></span>
+<h3>反馈与数据管理</h3>
+
+<p>提交意见反馈，管理账号、学校绑定与本机缓存。</p>
+</article>
+</div>
+</div>
+</section>
+
+<section class="boundary-section">
+<div class="container boundary-card">
+<div>
+<p class="section-kicker">使用说明</p>
+
+<h2>具体内容，以服务实际提供为准。</h2>
+</div>
+
+<p>学校服务由学校提供；社区、资料和机构内容以应用内实际状态为准。请通过学校正式渠道核对重要教务与考试信息。</p>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<div class="footer-brand"><strong>我的川农</strong><span>校园学习与生活辅助工具</span></div>
+
+<nav class="footer-links" aria-label="页脚导航"><a href="privacy.html">隐私政策</a><a href="terms.html">用户协议</a><a href="services.html">服务说明</a><a href="manual.html">软件说明书</a><a href="contact.html">联系反馈</a><a href="thanks.html">感谢</a></nav>
+</div>
+
+<div class="container footer-filing"><span>© 2026 我的川农</span><a data-filing-link hidden target="_blank" rel="noopener noreferrer"></a></div>
+</footer>
+</body>
+</html>
